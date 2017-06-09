@@ -1,0 +1,87 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 970px;
+ margin: 0px auto;
+ padding: 10px;
+ background-color: rgb(28,52,94);
+}
+#header{
+ height: 50px;
+ border-radius: 15px;
+ background-color: rgb(206,48,54);
+ margin-bottom: 15px;
+ margin-right: 10px;
+ padding:15px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: rgb(42,125,140);
+ border-radius: 15px;
+ display:inline-block;
+ vertical-align: top;
+ padding:20px;
+}
+#navigationlist{
+ margin-left: 15px;
+ margin-bottom: 10px;
+ display:inline-block;
+}
+#main_content{
+ height: 400px;
+ width: 670px;
+ border-radius: 15px;
+ background-color: black;
+ margin-left: 15px;
+ margin-bottom: 10px;
+ padding:15px;
+ display:inline-block;
+ }
+ #list_content{
+ padding:15px;
+ display:inline-block;
+ }
+ #footer{
+  height: 25px;
+  border-radius: 15px;
+  background-color: rgb(94,102,115);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding:15px;
+ }
+h1{
+ color: white;
+ vertical-align: middle;
+}
+h2{
+ color: white;
+}
+h3{
+ color: white;
+}
+p {
+  color: white;
+  font-family: "Perpetua", serif;
+  display:inline-block;
+}
+a {
+  color: rgb(85,198,222);
+}
+ul{
+    list-style-type: disc;
+    color: white;
+    display:block;
+    margin-left: 10px;
+}
+ul.a{
+    list-style-type: circle;
+    color: white;
+}
+.highlight{
+  color: rgb(106,117,206);
+  font-weight: bold;
+  )
